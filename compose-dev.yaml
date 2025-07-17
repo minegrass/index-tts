@@ -3,7 +3,7 @@ services:
     entrypoint:
     - sleep
     - infinity
-    image: conda/miniconda3
+    image: devcontainers/anaconda:latest
     init: true
     volumes:
     - type: bind
